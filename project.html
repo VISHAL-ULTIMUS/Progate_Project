@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheets" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head>
+<header>
+    <div class="container">
+      <div class="header-left">
+        <img class="logo" src="https://st4.depositphotos.com/4320021/22199/v/1600/depositphotos_221993346-stock-illustration-quiz-logo-with-speech-bubble.jpg">
+      </div>
+      <!-- Add a menu icon here -->
+      <span class="fa fa-bars menu-icon"></span>
+
+      <div class="header-right">
+        <a href="#">Lessons</a>
+        <a href="#">Sign in</a>
+        <a href="#" class="login">Log in</a>
+      </div>
+    </div>
+  </header>
+<body>
+<br>  
+<br>
+<br>
+<br>  
+<br>
+    <h2 id="head1">WELCOME TO THE WORLD OF QUIZ</h2>
+    <P id="text_1">THIS INTERACTIVE QUIZ WILL HELP YOU LOT IN TESTING YOUR KNOWLEDGE IN HTML CSS AND JAVASCRIPT </P>
+    <marquee id="text_2">ALL THE VERY BEST!!!</marquee><div class="header">
+       
+  
+
+    <div id="container">
+        <div id="start"> Start Quiz!</div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+    <script src="quiz.js"></script>
+    <div class="btn-wrapper">
+       <br>
+       <br>
+        <a href="#" class="btn facebook">
+            <!-- Add a <span> tag -->
+            <span class="fa fa-facebook"></span>
+            Sign up with Facebook
+          </a>
+          
+          <a href="#" class="btn twitter">
+            <!-- Add a <span> tag -->
+            <span class="fa fa-twitter"></span>
+            Sign up with Twitter
+        </a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    
+    <div class="container">
+      
+      <p id="text3">Learn to Code, Learn to be Creative.</p>
+    </div>
+  </footer>
+</body>
+</html>
