@@ -1,0 +1,2 @@
+# Progate_Project
+This project I created is an interactive quiz which is aimed to  test the knowledge of  aspiring engineer. Quizzes helps us  a lot to test our knowledge  about any topic. It also helps us in learning something new too. Thanks to Progate's week of learning I have learnt a lot about HTML, CSS and Javascript. This is my first self made project after gaining  knowledge  from week of learning. I thank Progate' members a lot for their support  which helped us a lot .
